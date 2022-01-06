@@ -1,6 +1,3 @@
-#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  #args: ["gcloud", "compute", "instances", "start", "gitlab-runner", "--zone=europe-west2-c"]
 - name: 'alpine'
   args: ["echo", "testingcode"]
-#- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  #args: ["gcloud", "compute", "instances", "stop", "gitlab-runner", "--zone=europe-west2-c"]
+
